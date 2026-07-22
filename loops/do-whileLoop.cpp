@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int mai()
+int main()
 {
     int n;
     cout << "Enter a number : ";
