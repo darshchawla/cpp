@@ -6,7 +6,6 @@ int main()
     while (i <= 90)
     {
         cout << (char)i << "-" << i << endl;
-        ;
         i++;
     }
 }
