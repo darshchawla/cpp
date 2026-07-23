@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-    int l;
+    int r;
     cout << "Enter number of rows : ";
-    cin >> l;
-    for (int i = 1; i <= l; i++)
+    cin >> r;
+    int a = 1;
+    for (int i = 1; i <= r; i++)
     {
-        int a = 1;
         for (int j = 1; j <= i; j++)
         {
             cout << a << " ";
-            a = a + 2;
+            a++;
         }
         cout << endl;
     }
