@@ -39,16 +39,16 @@ int main()
 
     cout << endl;
 
-    int sum = 0;
+    int product = 1;
 
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
         {
-            sum = sum + arr[i][j];
+            product = product * arr[i][j];
         }
     }
-    cout << "The sum of all the elements in the matrix is : ";
-    cout << sum;
+    cout << "The product of all the elements in the matrix is : ";
+    cout << product;
     cout << endl;
 }
