@@ -19,7 +19,7 @@ public:
 int main()
 {
     Cricketer c1("Virat Kohli", 562, 28359);
-
+    
     cout << "Name of the Cricketer : " << c1.name << endl;
     cout << "Total Matches played by the Cricketer : " << c1.matches << endl;
     cout << "Total Runs scored by the Cricketer : " << c1.runs << endl;
