@@ -15,7 +15,7 @@ int main()
 
     for (auto p : m)
     {
-        cout << p.first << " - " << p.second << endl
-             << endl;
+        cout << p.first << " - " << p.second << endl;
     }
+    cout<<endl;
 }
